@@ -1,0 +1,108 @@
+/* General styles */
+:root{
+    --font: georgia;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* ->General Styles */
+
+/* Header Styles */
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: 4rem;
+}
+
+.header__image{
+    width: 55px;
+    max-width: 55px;
+}
+
+.header__container-word{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 160px;
+    max-width: 160px;
+
+}
+
+.header__wordmark{
+    width: 152px;
+    max-width: 152px;
+}
+
+.header__subtitle{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+/* ->Header Styles */
+
+/* Main Styles */
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    flex: auto;
+}
+
+/* ->Main Styles */
+
+
+/* Section-Languages Styles */
+
+.languages{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    width: 100%;
+}
+
+.languages__lang{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3);
+    padding: 0 5px;
+}
+
+.languages__title{
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #36c;
+    text-align: center;
+}
+
+.languages__number-articles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #54595d;
+    line-height: 1.4;
+}
+
+
+
+
+
+
+/* ->Section-Languages Styles */

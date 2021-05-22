@@ -5,65 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wikipedia-Clone</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 <body>
-    <header class="header">
-        <h1 class="header__image">Image</h1>
-        <h1 class="header__text--title">Wikipedia</h1>
-        <h2 class="header__text--subtitle">La enciclopedia libre</h2>
+    <header>
+        <img class="header__image" src="https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png"/>
+        <div class="header__container-word">
+            <img class="header__wordmark" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Wikipedia_wordmark.svg"/>
+            <h2 class="header__subtitle">La enciclopedia libre</h2>
+        </div>
     </header>
-    <main class="main">
-        <section class="pack-languages">
-            <div class="pl-pack-1">
-                <article class="pl-lang">
-                    <h2 class="pl-lang__title">Español</h2>
-                    <p class="pl-lang__number-articles">1 684 000+ artículos</p>
+    <main>
+        <section class="languages">
+                <article class="languages__lang">
+                    <h2 class="languages__title">Español</h2>
+                    <p class="languages__number-articles">1 684 000+ <span>artículos</span></p>
                 </article>
-                <article class="pl-lang">
-                    <h2 class="pl-lang__title">English</h2>
-                    <p class="pl-lang__number-articles">6 299 000+ articles</p>
+                <article class="languages__lang">
+                    <h2 class="languages__title">English</h2>
+                    <p class="languages__number-articles">6 299 000+ <span>articles</span></p>
                 </article>
-            </div>
-            <div class="pl-pack-2">
-                <article class="pl-lang">
-                    <h2 class="pl-lang__title">日本語</h2>
-                    <p class="pl-lang__number-articles">1 268 000+ 記事</p>
+                <article class="languages__lang">
+                    <h2 class="languages__title">日本語</h2>
+                    <p class="languages__number-articles">1 268 000+ <span>記事</span></p>
                 </article>
-                <article class="pl-lang">
-                    <h2 class="pl-lang__title">Deutsch</h2>
-                    <p class="pl-lang__number-articles">2 576 000+ Artikel</p>
+                <article class="languages__lang">
+                    <h2 class="languages__title">Deutsch</h2>
+                    <p class="languages__number-articles">2 576 000+ <span>Artikel</span></p>
                 </article>
-            </div>
-            <div class="pl-pack-3">
-                <article class="pl-lang">
-                    <h2 class="pl-lang__title">Русский</h2>
-                    <p class="pl-lang__number-articles">1 724 000+ статей</p>
+                <article class="languages__lang">
+                    <h2 class="languages__title">Русский</h2>
+                    <p class="languages__number-articles">1 724 000+ <span>статей</span></p>
                 </article>
-                <article class="pl-lang">
-                    <h2 class="pl-lang__title">Français</h2>
-                    <p class="pl-lang__number-articles">2 329 000+ articles</p>
+                <article class="languages__lang">
+                    <h2 class="languages__title">Français</h2>
+                    <p class="languages__number-articles">2 329 000+ <span>articles</span></p>
                 </article>
-            </div>
-            <div class="pl-pack-4">
-                <article class="pl-lang">
-                    <h2 class="pl-lang__title">Italiano</h2>
-                    <p class="pl-lang__number-articles">1 693 000+ voci</p>
+                <article class="languages__lang">
+                    <h2 class="languages__title">Italiano</h2>
+                    <p class="languages__number-articles">1 693 000+ <span>voci</span></p>
                 </article>
-                <article class="pl-lang">
-                    <h2 class="pl-lang__title">中文</h2>
-                    <p class="pl-lang__number-articles">1 197 000+ 條目</p>
+                <article class="languages__lang">
+                    <h2 class="languages__title">中文</h2>
+                    <p class="languages__number-articles">1 197 000+ <span>條目</span></p>
                 </article>
-            </div>
-            <div class="pl-pack-5">
-                <article class="pl-lang">
-                    <h2 class="pl-lang__title">Português</h2>
-                    <p class="pl-lang__number-articles">1 066 000+ artigos</p>
+                <article class="languages__lang">
+                    <h2 class="languages__title">Português</h2>
+                    <p class="languages__number-articles">1 066 000+ <span>artigos</span></p>
                 </article>
-                <article class="pl-lang">
-                    <h2 class="pl-lang__title">Polski</h2>
-                    <p class="pl-lang__number-articles">1 473 000+ haseł</p>
+                <article class="languages__lang">
+                    <h2 class="languages__title">Polski</h2>
+                    <p class="languages__number-articles">1 473 000+ <span>haseł</span></p>
                 </article>
-            </div>
         </section>
         <section class="search-bar">
             <div class="sb-pack-lang">
@@ -71,6 +66,9 @@
                 <h2 class="sb-pack-lang__icon">arrow</h2>
             </div>
             <h2 class="search-bar__icon">icono</h2>
+            <span class="material-icons-outlined">
+                search
+                </span>
         </section>
         <section class="change-lang-bar">
             <h2 class="change-lang-bar__icon-lang">translate</h2>
