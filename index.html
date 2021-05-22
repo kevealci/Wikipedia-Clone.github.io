@@ -5,11 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wikipedia-Clone</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <!-- https://material.io/resources/icons/?style=baseline -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+rel="stylesheet">
+<!-- https://material.io/resources/icons/?style=outline -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
+rel="stylesheet">
+<!-- https://material.io/resources/icons/?style=round -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round"
+rel="stylesheet">
+<!-- https://material.io/resources/icons/?style=sharp -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp"
+rel="stylesheet">
+<!-- https://material.io/resources/icons/?style=twotone -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone"
+rel="stylesheet">
     <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 <body>
+
     <header>
         <img class="header__image" src="https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png"/>
         <div class="header__container-word">
@@ -17,71 +31,76 @@
             <h2 class="header__subtitle">La enciclopedia libre</h2>
         </div>
     </header>
+
     <main>
+
         <section class="languages">
                 <article class="languages__lang">
-                    <h2 class="languages__title">Español</h2>
-                    <p class="languages__number-articles">1 684 000+ <span>artículos</span></p>
+                    <a href="#" class="languages__title">Español<a href="#"class="languages__number-articles">1 684 000+ <span>artículos</span></a> </a>     
+                     
+                </article>     
+                <article class="languages__lang">
+                    <a href="#" class="languages__title">English<a href="#" class="languages__number-articles">6 299 000+ <span>articles</span></a></a>            
                 </article>
                 <article class="languages__lang">
-                    <h2 class="languages__title">English</h2>
-                    <p class="languages__number-articles">6 299 000+ <span>articles</span></p>
+                    <a href="#" class="languages__title">日本語<a href="#" class="languages__number-articles">1 268 000+ <span>記事</span></a></a>            
                 </article>
                 <article class="languages__lang">
-                    <h2 class="languages__title">日本語</h2>
-                    <p class="languages__number-articles">1 268 000+ <span>記事</span></p>
+                    <a href="#" class="languages__title">Deutsch<a href="#" class="languages__number-articles">2 576 000+ <span>Artikel</span></a></a>            
                 </article>
                 <article class="languages__lang">
-                    <h2 class="languages__title">Deutsch</h2>
-                    <p class="languages__number-articles">2 576 000+ <span>Artikel</span></p>
+                    <a href="#" class="languages__title">Русский<a href="#" class="languages__number-articles">1 724 000+ <span>статей</span></a></a>            
                 </article>
                 <article class="languages__lang">
-                    <h2 class="languages__title">Русский</h2>
-                    <p class="languages__number-articles">1 724 000+ <span>статей</span></p>
+                    <a href="#" class="languages__title">Français<a href="#" class="languages__number-articles">2 329 000+ <span>articles</span></a></a>            
                 </article>
                 <article class="languages__lang">
-                    <h2 class="languages__title">Français</h2>
-                    <p class="languages__number-articles">2 329 000+ <span>articles</span></p>
+                    <a href="#" class="languages__title">Italiano<a href="#" class="languages__number-articles">1 693 000+ <span>voci</span></a></a>            
                 </article>
                 <article class="languages__lang">
-                    <h2 class="languages__title">Italiano</h2>
-                    <p class="languages__number-articles">1 693 000+ <span>voci</span></p>
+                    <a href="#" class="languages__title">中文<a href="#" class="languages__number-articles">1 197 000+ <span>條目</span></a></a>            
                 </article>
                 <article class="languages__lang">
-                    <h2 class="languages__title">中文</h2>
-                    <p class="languages__number-articles">1 197 000+ <span>條目</span></p>
+                    <a href="#" class="languages__title">Português<a href="#" class="languages__number-articles">1 066 000+ <span>artigos</span></a></a>            
                 </article>
                 <article class="languages__lang">
-                    <h2 class="languages__title">Português</h2>
-                    <p class="languages__number-articles">1 066 000+ <span>artigos</span></p>
-                </article>
-                <article class="languages__lang">
-                    <h2 class="languages__title">Polski</h2>
-                    <p class="languages__number-articles">1 473 000+ <span>haseł</span></p>
+                    <a href="#" class="languages__title">Polski<a href="#" class="languages__number-articles">1 473 000+ <span>haseł</span></a></a>            
                 </article>
         </section>
+
         <section class="search-bar">
-            <div class="sb-pack-lang">
-                <p class="sb-pack-lang__lang">ES</p>
-                <h2 class="sb-pack-lang__icon">arrow</h2>
-            </div>
-            <h2 class="search-bar__icon">icono</h2>
-            <span class="material-icons-outlined">
-                search
+            <input class="search__input" type="text">
+            <div class="search-bar__pack-lang">
+                <p class="search-bar__lang">ES</p>
+                <span class="search-bar__icon-down-arrow material-icons-outlined">
+                    expand_more
                 </span>
+            </div>
+            <span class="search-bar__icon-search material-icons-outlined">
+                search
+            </span>
         </section>
+
         <section class="change-lang-bar">
-            <h2 class="change-lang-bar__icon-lang">translate</h2>
+            <span class="change-lang-bar__icon-lang material-icons-outlined">
+                translate
+                </span>
             <p class="change-lang-bar__text">Leer Wikipedia en tu idioma</p>
-            <h2 class="change-lang-bar__icon-down-arrow">arrow</h2>
+            <span class="change-lang-bar__icon-down-arrow material-icons-outlined">
+                expand_more
+            </span>
         </section>
+
     </main>
-    <footer class="footer">
+
+    <footer>
+
         <section class="first-footer-section">
             <h2 class="first-footer-section__icon">Icono</h2>
             <p class="first-footer-section__description">Wikipedia es alojada por la Fundación Wikimedia, una organización sin fines de lucro que también alberga una gama de otros proyectos.</p>
             <a href="" class="first-footer-section__link">Usted puede apoyar nuestro trabajo con una donación.</a>
         </section>
+
         <section class="links-other-pages-section">
             <article class="lops-article">
                 <section class="lops-article__section-icon">
@@ -192,6 +211,7 @@
                 </section>
             </article>
         </section>
+
         <section class="download-section">
             <section class="download-section__title">
                 <h2 class="download-section__title-icon">icon</h2>
@@ -203,6 +223,7 @@
                 <button class="buttons-section__button buttons-section__button--appstore">button2</button>
             </section>
         </section>
+
         <section class="last-footer-section">
             <p class="last-footer-section__parag last-footer-section__after">
                 Esta página está disponible bajo la 
@@ -211,6 +232,8 @@
             <a class="last-footer-section__link last-footer-section__after" href="">Términos de uso</a>
             <a class="last-footer-section__link" href="">Normativa de privacidad</a>
         </section>
+        
     </footer> 
+
 </body>
 </html>
