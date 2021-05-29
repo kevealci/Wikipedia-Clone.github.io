@@ -225,3 +225,169 @@ main{
 
 /* ->Section-Change lang bar */
 
+/* Footer Section */
+
+
+/* ->Footer Section */
+
+/* Message Styles */
+
+.message{
+    margin-top: 12px;
+    margin-bottom: 30px;
+
+    text-align: center;
+}
+
+.message__icon{
+    display: inline-block;
+
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+
+    background-image: url(https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-d7502d35.svg);
+    background-repeat: no-repeat;
+    background-position: 4px -206px;
+}
+
+.message__description{
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: #54595d;
+}
+
+.message__link{
+    font-size: 1.3rem;
+    line-height: 1.5;
+
+    color: #36c;
+    text-decoration: none;
+}
+
+
+/* ->Message Styles */
+
+/* Pages Styles */
+
+.pages{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.page{
+    display: flex;
+    justify-content: space-evenly;
+
+    padding: 16px 0px;
+}
+
+.page__icon{
+    width: 50px;
+    height: 50px;
+
+    background-image: url(https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-d7502d35.svg);
+    background-repeat: no-repeat;
+    background-position: 3px -206px;
+}
+
+.page__icon--commons{
+    background-position: 3px 0px;
+}
+
+.page__icon--wikiviajes{
+    height: 35px;
+    margin-top: 5px;
+
+    background-position: 3px -445px;
+}
+
+.page__icon--wikcionario{
+    height: 40px;
+    margin-top: 5px;
+
+    background-position: 10px -480px;
+}
+
+.page__icon--wikilibros{
+    margin-top: 5px;
+
+    background-position: 3px -126px;
+}
+
+.page__icon--wikinoticias{
+    margin-top: 10px;
+
+    background-image: url(https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikinews-logo_sister.png);
+    background-position: 0 0;
+}
+
+.page__icon--wikidata{
+    height: 45px;
+    margin-top: 12px;
+
+    background-position: 3px -165px;
+}
+
+.page__icon--wikidiversidad{
+    height: 35px;
+    margin-top: 10px;
+
+    background-position: 3px -410px;
+}
+
+.page__icon--wikiquote{
+    height: 42px;
+    margin-top: 4px;
+
+    background-position: 3px -285px;
+}
+
+.page__icon--mediawiki{
+    height: 40px;
+    margin-top: 5px;
+
+    background-position: 3px -47px;
+}
+
+.page__icon--wikisource{
+    height: 40px;
+    margin-top: 5px;
+
+    background-position: 3px -328px;
+}
+
+.page__icon--wikispecies{
+    height: 40px;
+    margin-top: 5px;
+
+    background-position: 3px -368px;
+}
+
+.page__icon--metawiki{
+    height: 37px;
+    margin-top: 18px;
+
+    background-position: 3px -89px;
+}
+
+.page__text{
+    width: 60%;
+}
+
+.page__title{
+    margin-bottom: 5px;
+    font-size: 1.4rem;
+    font-weight: 100;
+
+    color: #36c;
+}
+
+.page__parag{
+    font-size: 1.3rem;
+    line-height: 1.5;
+
+    color: #54595d;
+}
+
+/* ->Pages Styles */
