@@ -25,52 +25,67 @@ rel="stylesheet">
 <body>
 
     <header>
-        <img class="header__image" src="https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png"/>
+
+        <img class="header__image" alt="Wikipedia Logo" src="https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png"/>
+
         <div class="header__container-word">
-            <img class="header__wordmark" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Wikipedia_wordmark.svg"/>
+
+            <img class="header__wordmark" alt="Wikipedia Wordmark" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Wikipedia_wordmark.svg"/>
             <h2 class="header__subtitle">La enciclopedia libre</h2>
+
         </div>
+
     </header>
 
-    <div class="main-container">
+    <main class="main-container">
         
-        <main>
+        <div class="main">
             
-            <section class="languages">
-                <article class="languages__lang">
-                    <a href="#" class="languages__title">Español<a href="#"class="languages__number-articles">1 684 000+ <span>artículos</span></a> </a>     
-                    
-                </article>     
-                <article class="languages__lang">
-                    <a href="#" class="languages__title">English<a href="#" class="languages__number-articles">6 299 000+ <span>articles</span></a></a>            
+            <div class="languages">
+
+                <article class="languages__lang languages__lang--español">
+                    <a href="#" class="languages__link"><h2 class="languages__title">Español</h2><span class="languages__number-articles">1 684 000+&nbsp;<span>artículos</span></span></a>     
                 </article>
-                <article class="languages__lang">
-                    <a href="#" class="languages__title">日本語<a href="#" class="languages__number-articles">1 268 000+ <span>記事</span></a></a>            
+
+                <article class="languages__lang languages__lang--english">
+                    <a href="#" class="languages__link"><h2 class="languages__title">English</h2><span  class="languages__number-articles">6 299 000+&nbsp;<span>articles</span></span></a>            
                 </article>
-                <article class="languages__lang">
-                    <a href="#" class="languages__title">Deutsch<a href="#" class="languages__number-articles">2 576 000+ <span>Artikel</span></a></a>            
+
+                <article class="languages__lang languages__lang--日本語">
+                    <a href="#" class="languages__link"><h2 class="languages__title">日本語</h2><span  class="languages__number-articles">1 268 000+&nbsp;<span>記事</span></span></a>            
                 </article>
-                <article class="languages__lang">
-                    <a href="#" class="languages__title">Русский<a href="#" class="languages__number-articles">1 724 000+ <span>статей</span></a></a>            
+
+                <article class="languages__lang languages__lang--deutsch">
+                    <a href="#" class="languages__link"><h2 class="languages__title">Deutsch</h2><span  class="languages__number-articles">2 576 000+&nbsp;<span>Artikel</span></span></a>            
                 </article>
-                <article class="languages__lang">
-                    <a href="#" class="languages__title">Français<a href="#" class="languages__number-articles">2 329 000+ <span>articles</span></a></a>            
+
+                <article class="languages__lang languages__lang--pусский">
+                    <a href="#" class="languages__link"><h2 class="languages__title">Русский</h2><span  class="languages__number-articles">1 724 000+&nbsp;<span>статей</span></span></a>            
                 </article>
-                <article class="languages__lang">
-                    <a href="#" class="languages__title">Italiano<a href="#" class="languages__number-articles">1 693 000+ <span>voci</span></a></a>            
+
+                <article class="languages__lang languages__lang--français">
+                    <a href="#" class="languages__link"><h2 class="languages__title">Français</h2><span  class="languages__number-articles">2 329 000+&nbsp;<span>articles</span></span></a>            
                 </article>
-                <article class="languages__lang">
-                    <a href="#" class="languages__title">中文<a href="#" class="languages__number-articles">1 197 000+ <span>條目</span></a></a>            
+
+                <article class="languages__lang languages__lang--italiano">
+                    <a href="#" class="languages__link"><h2 class="languages__title">Italiano</h2><span  class="languages__number-articles">1 693 000+&nbsp;<span>voci</span></span></a>            
                 </article>
-                <article class="languages__lang">
-                    <a href="#" class="languages__title">Português<a href="#" class="languages__number-articles">1 066 000+ <span>artigos</span></a></a>            
+
+                <article class="languages__lang languages__lang--中文">
+                    <a href="#" class="languages__link"><h2 class="languages__title">中文</h2><span  class="languages__number-articles">1 197 000+&nbsp;<span>條目</span></span></a>            
                 </article>
-                <article class="languages__lang">
-                    <a href="#" class="languages__title">Polski<a href="#" class="languages__number-articles">1 473 000+ <span>haseł</span></a></a>            
+
+                <article class="languages__lang languages__lang--português">
+                    <a href="#" class="languages__link"><h2 class="languages__title">Português</h2><span  class="languages__number-articles">1 066 000+&nbsp;<span>artigos</span></span></a>            
                 </article>
-            </section>
+
+                <article class="languages__lang languages__lang--polski">
+                    <a href="#" class="languages__link"><h2 class="languages__title">Polski</h2> <span  class="languages__number-articles"> 1 473 000+&nbsp;<span>haseł</span> </span></a>            
+                </article>
+
+            </div>
             
-            <section class="search-bar">
+            <div class="search-bar">
                 
                 <input class="search__input" type="text">
                 
@@ -87,225 +102,228 @@ rel="stylesheet">
                     search
                 </span>
                 
-            </section>
+            </div>
             
-            <section class="change-lang-bar">
+            <article class="change-lang-bar">
                 
                 <span class="change-lang-bar__icon-lang material-icons-outlined">
                     translate
                 </span>
                 
-                <p class="change-lang-bar__text">Leer Wikipedia en tu idioma</p>
+                <h2 class="change-lang-bar__text">Leer Wikipedia en tu idioma</h2>
                 
                 <span class="change-lang-bar__icon-down-arrow material-icons-outlined">
                     expand_more
                 </span>
                 
-            </section>
+            </article>
             
-        </main>
+        </div>
 
-    </div>
+    </main>
         
         <footer>
 
-            <section class="message">
+            <article class="message">
                 
                 <span class="message__icon"></span>
                 
-                <p class="message__description">Wikipedia es alojada por la Fundación Wikimedia, una organización sin fines de lucro que también alberga una gama de otros proyectos.</p>
+                <div class="message__container">
 
-                <a href="" class="message__link">Usted puede apoyar nuestro trabajo con una donación.</a>
-                
-            </section>
+                    <h2 class="message__description">Wikipedia es alojada por la Fundación Wikimedia, una organización sin fines de lucro que también alberga una gama de otros proyectos.</h2>
+                    
+                    <a href="" class="message__link">Usted puede apoyar nuestro trabajo con una donación.</a>
+                    
+                </div>
+
+            </article>
             
-            <section class="pages">
+            <div class="pages">
 
                 
                 <article class="page">
                     
-                    <section class="page__icon page__icon--commons"></section>
+                    <span class="page__icon page__icon--commons"></span>
                     
-                    <section class="page__text">
+                    <div class="page__text">
                         
                         <h2 class="page__title">Commons</h2>
                         <p class="page__parag">Fotos libremente utilizables y mas</p>
                         
-                    </section>
+                    </div>
                     
                 </article>
                 
                 <article class="page">
                     
-                    <section class="page__icon page__icon--wikiviajes"></section>
+                    <span class="page__icon page__icon--wikiviajes"></span>
                     
-                    <section class="page__text">
+                    <div class="page__text">
                         
                         <h2 class="page__title">Wikiviajes</h2>
                         <p class="page__parag">La guía de viajes libre</p>
                         
-                    </section>
+                    </div>
                     
                 </article>
                 
                 <article class="page">
                     
-                    <section class="page__icon page__icon--wikcionario"></section>
+                    <span class="page__icon page__icon--wikcionario"></span>
                     
-                    <section class="page__text">
+                    <div class="page__text">
                         
                         <h2 class="page__title">Wikcionario</h2>
                         <p class="page__parag">El diccionario libre</p>
                         
-                    </section>
+                    </div>
                     
                 </article>
                 
                 <article class="page">
                     
-                    <section class="page__icon page__icon--wikilibros"></section>
+                    <span class="page__icon page__icon--wikilibros"></span>
                     
-                    <section class="page__text">
+                    <div class="page__text">
                         
                         <h2 class="page__title">Wikilibros</h2>
                         <p class="page__parag">Libros de contenido libre</p>
                         
-                    </section>
+                    </div>
                     
                 </article>
                 
                 <article class="page">
                     
-                    <section class="page__icon page__icon--wikinoticias"></section>
+                    <span class="page__icon page__icon--wikinoticias"></span>
                     
-                    <section class="page__text">
+                    <div class="page__text">
                         
                         <h2 class="page__title">Wikinoticias</h2>
                         <p class="page__parag">La fuente de noticias libres</p>
                         
-                    </section>
+                    </div>
                     
                 </article>
                 
                 <article class="page">
 
-                    <section class="page__icon page__icon--wikidata"></section>
+                    <span class="page__icon page__icon--wikidata"></span>
                     
-                    <section class="page__text">
+                    <div class="page__text">
                         
                         <h2 class="page__title">Wikidata</h2>
                         <p class="page__parag">Base de conocimiento libre</p>
                     
-                    </section>
+                    </div>
                 
                 </article>
                 
                 <article class="page">
                     
-                    <section class="page__icon page__icon--wikidiversidad"></section>
+                    <span class="page__icon page__icon--wikidiversidad"></span>
                     
-                    <section class="page__text">
+                    <div class="page__text">
                         
                         <h2 class="page__title">Wikidiversidad</h2>
                         <p class="page__parag">Plataforma educativa libre</p>
                         
-                    </section>
+                    </div>
                     
                 </article>
                 
                 <article class="page">
                     
-                    <section class="page__icon page__icon--wikiquote"></section>
+                    <span class="page__icon page__icon--wikiquote"></span>
                     
-                    <section class="page__text">
+                    <div class="page__text">
                         
                         <h2 class="page__title">Wikiquote</h2>
                         <p class="page__parag">La colección de citas</p>
                         
-                    </section>
+                    </div>
                     
                 </article>
                 
                 <article class="page">
                     
-                    <section class="page__icon page__icon--mediawiki"></section>
+                    <span class="page__icon page__icon--mediawiki"></span>
                     
-                    <section class="page__text">
+                    <div class="page__text">
                         
                         <h2 class="page__title">MediaWiki</h2>
                         <p class="page__parag">Aplicación wiki libre y abierta</p>
                         
-                    </section>
+                    </div>
                     
                 </article>
                 
                 <article class="page">
                     
-                    <section class="page__icon page__icon--wikisource"></section>
+                    <span class="page__icon page__icon--wikisource"></span>
                     
-                    <section class="page__text">
+                    <div class="page__text">
                         
                         <h2 class="page__title">Wikisource</h2>
                         <p class="page__parag">La biblioteca libre</p>
                         
-                    </section>
+                    </div>
                     
                 </article>
                 
                 <article class="page">
                     
-                    <section class="page__icon page__icon--wikispecies"></section>
+                    <span class="page__icon page__icon--wikispecies"></span>
                     
-                    <section class="page__text">
+                    <div class="page__text">
 
                         <h2 class="page__title">Wikispecies</h2>
                         <p class="page__parag">Directorio de especies libre</p>
                         
-                    </section>
+                    </div>
                     
                 </article>
                 
                 <article class="page">
                     
-                    <section class="page__icon page__icon--metawiki"></section>
+                    <span class="page__icon page__icon--metawiki"></span>
                     
-                    <section class="page__text">
+                    <div class="page__text">
                         
                         <h2 class="page__title">Meta-Wiki</h2>
                         <p class="page__parag">Coordinación y documentación comunitaria</p>
                         
-                    </section>
+                    </div>
                     
                 </article>
             
-            </section>
+            </div>
             
-            
-            <section class="download-container">
+            <div class="download-container">
                 
                 <article class="download">
                     
-                    <section class="download__header">
+                    <div class="download__header">
                         
                         <span class="download__icon"></span>
                         <h2 class="download__title">Descargar Wikipedia para Android o iOS</h2>
                         
-                    </section>
+                    </div>
                     
-                    <p class="download__body">Guarda tus artículos favoritos para       leerlos sin conexión, sincroniza tus listas de lectura en varios dispositivos y personaliza tu experiencia de lectura con la aplicación oficial de Wikipedia.</p>
+                    <p class="download__body">Guarda tus artículos favoritos para leerlos sin conexión, sincroniza tus listas de lectura en varios dispositivos y personaliza tu experiencia de lectura con la aplicación oficial de Wikipedia.</p>
                     
-                    <section class="download__footer">
+                    <div class="download__footer">
                         
                         <span class="download__button download__button--google"></span>
                         <span class="download__button download__button--apple"></span>
                         
-                    </section>
+                    </div>
                     
                 </article>
                 
-            </section>
+            </div>
             
-            <section class="licenses">
+            <div class="licenses">
 
                 <p class="licenses__text">Esta página está disponible bajo la
                     <a class="licenses__link" href="">licencia Creative Commons Atribución-CompartirIgual</a>
@@ -313,7 +331,7 @@ rel="stylesheet">
                     <a class="licenses__link licenses__link--before" href="">Normativa de privacidad</a>
                 </p>
 
-            </section>
+            </div>
         
     </footer> 
 
