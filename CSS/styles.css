@@ -237,6 +237,7 @@ main{
 /* Message Styles */
 
 .message{
+    padding: 0 10px;
     margin-top: 12px;
     margin-bottom: 30px;
 
@@ -415,8 +416,8 @@ main{
     /* padding: 0 10px; */
 }
 .download__icon{
-    width: 50px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
 
     background-image: url(https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-d7502d35.svg);
     background-repeat: no-repeat;
